@@ -1,0 +1,16 @@
+select {
+  padding: 10px;
+  margin: 5px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+b {
+  font-size: 1.5rem;
+}
+
+span {
+  color: gray;
+}
