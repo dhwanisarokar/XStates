@@ -51,7 +51,7 @@ function App() {
   useEffect(() => {
     async function fetchData() {
       const data = await fetchCountries();
-      setCountries(data);
+      setCountries(data || []);
     }
     fetchData();
   }, []);
