@@ -126,7 +126,7 @@ function App() {
       <div className="addressContainer">
         {selectedCity && (
           <span className="address">
-            You Selected <b>{selectedCity}</b>,{" "}
+            You Selected <b>{selectedCity},</b>{" "}
             <span>
               {selectedState}, {selectedCountry}
             </span>
