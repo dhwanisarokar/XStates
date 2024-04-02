@@ -123,14 +123,16 @@ function App() {
           ))}
         </select>
       </div>
-      {selectedCity && (
-        <p>
-          You Selected <span className="cityName">{selectedCity}</span>,{" "}
-          <span>
-            {selectedState}, {selectedCountry}
+      <div className="addressContainer">
+        {selectedCity && (
+          <span className="address">
+            You Selected <b>{selectedCity}</b>,{" "}
+            <span>
+              {selectedState}, {selectedCountry}
+            </span>
           </span>
-        </p>
-      )}
+        )}
+      </div>
     </>
   );
 }

@@ -3,15 +3,18 @@ select {
   margin: 5px;
 }
 
-p {
-  font-size: 1.1rem;
+.addressContainer {
   text-align: center;
 }
 
-.cityName {
+.address {
+  font-size: 1.1rem;
+}
+
+b {
   font-size: 1.5rem;
 }
 
-span {
+.address span {
   color: gray;
 }
