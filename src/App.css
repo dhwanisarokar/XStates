@@ -3,18 +3,15 @@ select {
   margin: 5px;
 }
 
-.addressContainer {
+.result {
   text-align: center;
-}
-
-.address {
   font-size: 1.1rem;
 }
 
-b {
+.cityName {
   font-size: 1.5rem;
 }
 
-.address span {
+.fade {
   color: gray;
 }
